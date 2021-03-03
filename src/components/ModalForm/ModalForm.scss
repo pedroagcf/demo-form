@@ -1,0 +1,32 @@
+.modal {
+    padding: 20px;
+    margin: auto;
+    width: 740px;
+    height: 600px;
+    background: #f3f3f3;
+    position: absolute;
+    bottom: 0;
+    top: 0;
+    right: 0;
+    left: 0;
+    box-sizing: border-box;
+    padding: 50px;
+    overflow: auto;
+}
+
+.--open {
+    display: flex;
+}
+
+.--close {
+    display: none;
+}
+
+.modal__form {
+    height: inherit;
+}
+
+// .button-group {
+//     display: flex;
+//     align-content: flex-start;
+// }
